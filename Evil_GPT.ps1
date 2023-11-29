@@ -11,7 +11,7 @@ $body = @{
 
 $headers = @{
     'Content-Type' = 'application/json'
-    'Authorization' = "PUT YOUR API KEY HERE  (Sample : Bearer sk-90ao3elx22vzOX2qCSx2T3BlbCFJ253L02aJobB4RnxQI0UY ) "
+    'Authorization' = "Bearer sk-90ao3elx22vzOX2qCSx2T3BlbCFJ253L02aJobB4RnxQI0UY"
 }
 
 $jsonBody = $body | ConvertTo-Json
